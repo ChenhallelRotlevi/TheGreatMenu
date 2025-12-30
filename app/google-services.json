@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "898939781300",
+    "project_id": "thegreatmenu-8f6a5",
+    "storage_bucket": "thegreatmenu-8f6a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898939781300:android:9e534487b3fc9d1a6a57e1",
+        "android_client_info": {
+          "package_name": "com.example.thegreatmenu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAly1aH-8vwGwiMEr6Q086_PXH0u3n19Bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
