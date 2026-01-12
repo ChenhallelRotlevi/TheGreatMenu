@@ -3,55 +3,79 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
-
+    android:background="?android:attr/windowBackground">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="?android:attr/colorBackground"
+        android:padding="16dp"
+        android:elevation="4dp"
         android:orientation="horizontal"
-        android:gravity="center_vertical"
-        android:layout_marginBottom="16dp">
+        android:gravity="center_vertical">
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="מה במקרר?"
+            android:textColor="?attr/colorPrimary"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="הגדרות"
+            android:backgroundTint="#E0E0E0"
+            android:textColor="#333333"
+            android:textSize="12sp"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
             android:id="@+id/btnLogout"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="התנתק"
-            android:backgroundTint="#D32F2F"
-            android:textColor="@android:color/white"/>
+            android:layout_height="40dp"
+            android:text="יציאה"
+            android:backgroundTint="#FFEBEE"
+            android:textColor="#D32F2F"
+            android:textSize="12sp"/>
     </LinearLayout>
 
-    <EditText
-        android:id="@+id/etSearch"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="חפש לפי מצרכים (למשל: עגבניה, בצל)" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <Button
-        android:id="@+id/btnAddRecipe"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="שתף מתכון חדש +"
-        android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_launcher_background"
+            android:backgroundTint="#FFFFFF"
+            android:paddingHorizontal="16dp"
+            android:hint="חפש לפי מצרכים..."
+            android:elevation="2dp"
+            android:textColor="#000000"
+            android:textColorHint="#757575"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="מתכונים חמים:"
-        android:textSize="18sp" />
+        <Button
+            android:id="@+id/btnAddRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="שתף מתכון חדש +"
+            android:backgroundTint="?attr/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="16dp"/>
 
-    <ListView
-        android:id="@+id/listViewRecipes"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        <ListView
+            android:id="@+id/listViewRecipes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"/>
 
+    </LinearLayout>
 </LinearLayout>

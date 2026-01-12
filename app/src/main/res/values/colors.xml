@@ -2,4 +2,22 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryDark">#D84315</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="textDark">#37474F</color>
+
+    <color name="primaryOrange">#FF7043</color>
+    <color name="primaryOrangeDark">#D84315</color>
+    <color name="backgroundCream">#FFF3E0</color>
+
+    <color name="primaryGreen">#66BB6A</color>
+    <color name="primaryGreenDark">#388E3C</color>
+    <color name="backgroundGreenLight">#E8F5E9</color>
+
+    <color name="primaryNight">#7E57C2</color>
+    <color name="primaryNightDark">#512DA8</color>
+    <color name="backgroundNight">#121212</color>
+    <color name="cardNight">#1E1E1E</color>
+    <color name="textNight">#FFFFFF</color>
 </resources>

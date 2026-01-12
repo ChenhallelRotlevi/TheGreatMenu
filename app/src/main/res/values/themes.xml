@@ -1,9 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.TheGreatMenu" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.TheGreatMenu" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryOrange</item>
+        <item name="colorPrimaryVariant">@color/primaryOrangeDark</item>
+        <item name="android:windowBackground">@color/backgroundCream</item>
+        <item name="android:statusBarColor">@color/primaryOrangeDark</item>
+        <item name="android:textColor">@color/textDark</item>
     </style>
 
-    <style name="Theme.TheGreatMenu" parent="Base.Theme.TheGreatMenu" />
+    <style name="Theme.TheGreatMenu.Green" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryGreen</item>
+        <item name="colorPrimaryVariant">@color/primaryGreenDark</item>
+        <item name="android:windowBackground">@color/backgroundGreenLight</item>
+        <item name="android:statusBarColor">@color/primaryGreenDark</item>
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+
+    <style name="Theme.TheGreatMenu.Night" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryNight</item>
+        <item name="colorPrimaryVariant">@color/primaryNightDark</item>
+        <item name="android:windowBackground">@color/backgroundNight</item>
+        <item name="android:statusBarColor">@color/primaryNightDark</item>
+        <item name="android:textColor">@color/textNight</item>
+    </style>
 </resources>
